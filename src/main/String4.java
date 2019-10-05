@@ -7,7 +7,6 @@ public class String4 {
         Scanner s = new Scanner(System.in);
         String c = s.nextLine();
         int b = c.length();
-        int d = 0;
         for (int i = 0; i < b; i++) {
             c = c.replaceFirst("[AaEeIiOoUu]", "*");
             c = c.replaceFirst("[AaEeIiOoUu]", "^");
